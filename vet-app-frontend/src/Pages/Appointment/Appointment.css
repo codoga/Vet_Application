@@ -1,0 +1,78 @@
+.appointment-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
+
+h2, h5 {
+  text-align: center;
+}
+
+.form-section {
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form-row input,
+.form-row select {
+  width: 120px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.create-btn {
+  background-color: greenyellow;
+  color: black;
+}
+
+.update-btn {
+  background-color: greenyellow;
+  color: black;
+}
+
+.search-btn {
+  background-color: orange;
+  color: white;
+}
+
+.showall-btn {
+  background-color: orange;
+  color: white;
+  margin-top: 35px;
+}
+
+/* Randevu Listesi Stil */
+.appointment-list {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.appointment-list-header,
+.appointment-item {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.appointment-list-header {
+  font-weight: bold;
+  backgroun

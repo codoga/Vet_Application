@@ -1,0 +1,178 @@
+.report-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h2, h5 {
+  text-align: center;
+}
+
+.form-section {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-row input,
+.form-row select {
+  width: 120px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.form-row .btn {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.create-btn,
+.update-btn {
+  background-color: greenyellow;
+  color: black;
+}
+
+.search-btn,
+.showall-btn {
+  background-color: orange;
+  color: white;
+}
+
+.report-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.report-list span {
+  width: calc(100% / 9);
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow-y: scroll; /* Sayfa aşağı kaydığında yatay kaydırma çubuğunu göster */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section, .search-section, .report-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h5, .search-section h4, .report-list h5 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-row input, .form-row select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.form-row input[type="text"], .form-row select {
+  flex: 2;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.create-btn {
+  background-color: #28a745;
+}
+
+.update-btn {
+  background-color: #ffc107;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.showall-btn {
+  background-color: #17a2b8;
+}
+
+.search-btn {
+  background-color: #ffc107;
+}
+
+.yellow-btn {
+  background-color: #ffc107;
+}
+
+.orange-btn {
+  background-color: #fd7e14;
+}
+
+.report-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-list th, .report-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.report-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.report-list td {
+  vertical-align: middle;
+}
+
+.report-list tbody tr:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,122 @@
+.animal-management {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.icon-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-container .fas {
+  font-size: 100px; 
+  margin-left: -200px;
+  color: rgb(40, 117, 117);
+  margin-top: -70px;
+}
+
+.animal-management h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.animal-management {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center; /
+}
+
+.form-section {
+  margin-bottom: 35px;
+  text-align: left; 
+  margin-left: -10px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 10px;
+  flex: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.create-btn,
+.update-btn,
+.search-btn,
+.showall-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.animal-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.animal-list span {
+  flex: 1;
+  text-decoration: underline;
+}
+
+.form-row input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+}
+
+.animal-management {
+  max-width: 1200px; /* Sayfa genişliğine göre ayarlayabilirsiniz */
+  margin: 0 auto; /* Sayfanın ortalanması */
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.animal-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.animal-list th, .animal-list td {
+  padding: 8px;
+  text-align: left;
+}
+
+.animal-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.animal-list td {
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}

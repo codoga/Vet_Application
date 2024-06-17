@@ -1,0 +1,63 @@
+.form-section,
+.search-section {
+  margin-bottom: 20px;
+}
+
+.form-row,
+.search-section .form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row input,
+.search-section .form-row input,
+.form-row select,
+.search-section .form-row select,
+.form-row button,
+.search-section .form-row button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.create-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.search-btn {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.report-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.report-list span {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.report-row {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.report-cell {
+  flex: 1;
+  padding: 5px;
+}
+
+.actions .btn {
+  margin-right: 5px;
+}
